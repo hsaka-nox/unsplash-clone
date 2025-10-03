@@ -1,0 +1,31 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111827; 
+}
+
+.masonry-grid {
+  column-count: 1; 
+  column-gap: 1.5rem; 
+}
+
+@media (min-width: 768px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+
+.masonry-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem; 
+  break-inside: avoid;
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Free Images & Pictures | Unsplash</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+    <div id="app-container" class="w-full">
+
+        <header class="fixed top-0 left-0 w-full bg-white text-gray-700 shadow-sm z-50 px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-6">
+                    <a href="photos.html" class="block">
+                        <svg class="h-8 w-8 text-gray-800" viewBox="0 0 32 32" version="1.1" aria-labelledby="logo" role="img">
+                            <title id="logo">Unsplash Logo</title>
+                            <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                        </svg>
+                    </a>
+                    <div class="hidden lg:flex items-center bg-gray-100 rounded-full px-4 py-2 w-96">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                        <input type="text" placeholder="Search photos" class="bg-transparent focus:outline-none w-full ml-2 text-sm text-gray-800">
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                     <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                        <a href="#" class="hover:text-gray-900">Advertise</a>
+                        <a href="#" class="hover:text-gray-900">Blog</a>
+                    </div>
+                    <div class="hidden md:block border-l border-gray-300 h-8"></div>
+                    <div class="hidden md:flex items-center space-x-4 text-sm">
+                        <a href="#" class="font-medium hover:text-gray-900">Log in</a>
+                        <a href="#" class="bg-green-500 text-white px-3 py-2 rounded-md hover:bg-green-600">Submit a photo</a>
+                    </div>
+                    <button class="md:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="pt-16">
+            <div class="lg:hidden p-4 border-b">
+                <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
+                    <a href="photos.html" class="font-bold text-gray-900 border-b-2 border-gray-900 pb-2 flex-shrink-0">Photos</a>
+                    <a href="illustrations.html" class="text-gray-500 pb-2 flex-shrink-0">Illustrations</a>
+                    <a href="#" class="text-gray-500 pb-2 flex-shrink-0">Wallpapers</a>
+                </div>
+            </div>
+            
+            <div class="flex">
+                <aside class="hidden lg:block w-64 p-6 space-y-6 sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto border-r">
+                    <h2 class="font-bold text-lg text-gray-900">Unsplash</h2>
+                    <nav class="space-y-4">
+                        <a href="photos.html" class="flex items-center w-full text-left font-bold text-gray-900 border-l-2 border-gray-900 pl-3">Photos</a>
+                        <a href="illustrations.html" class="flex items-center w-full text-left text-gray-500 hover:text-gray-900 pl-3">Illustrations</a>
+                    </nav>
+                    <div class="border-t pt-6">
+                        <h3 class="font-semibold text-gray-900 mb-4">Categories</h3>
+                        <div class="space-y-3 text-gray-600 text-sm">
+                            <a href="#" class="block hover:text-gray-900">Wallpapers</a>
+                            <a href="#" class="block hover:text-gray-900">Nature</a>
+                            <a href="#" class="block hover:text-gray-900">3D Renders</a>
+                            <a href="#" class="block hover:text-gray-900">Travel</a>
+                            <a href="#" class="block hover:text-gray-900">Architecture & Interiors</a>
+                            <a href="#" class="block hover:text-gray-900">Street Photography</a>
+                            <a href="#" class="block hover:text-gray-900">Film</a>
+                        </div>
+                    </div>
+                </aside>
+
+                <main class="flex-1">
+                    <section class="relative h-[70vh] flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop');">
+                        <div class="absolute inset-0 bg-black opacity-40"></div>
+                        <div class="relative z-10 p-4 text-white">
+                            <h1 class="text-4xl md:text-6xl font-bold">Unsplash</h1>
+                            <p class="mt-4 text-lg md:text-xl">The internet’s source for visuals.<br>Powered by creators everywhere.</p>
+                            <div class="mt-8 mx-auto max-w-2xl">
+                                <div class="flex items-center bg-white rounded-md p-2 shadow-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 mx-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                    </svg>
+                                    <input type="text" placeholder="Search for high-resolution photos" class="w-full bg-transparent focus:outline-none text-gray-800">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <div class="p-6 md:p-8">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-8">Featured Photos</h2>
+                        <div class="masonry-grid">
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=870&auto=format&fit=crop" alt="Photo 1"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=974&auto=format&fit=crop" alt="Photo 2"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1480714378408-6824e4d758b5?q=80&w=870&auto=format&fit=crop" alt="Photo 3"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=900&auto=format&fit=crop" alt="Photo 4"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=900&auto=format&fit=crop" alt="Photo 5"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=900&auto=format&fit=crop" alt="Photo 6"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?q=80&w=900&auto=format&fit=crop" alt="Photo 7"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1505144808419-1957a94ca61e?q=80&w=900&auto=format&fit=crop" alt="Photo 8"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=900&auto=format&fit=crop" alt="Photo 9"></div>
+                            <div class="masonry-item"><img class="rounded-lg shadow-md" src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=900&auto=format&fit=crop" alt="Photo 10"></div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <footer class="bg-gray-800 text-white mt-12">
+            <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="space-y-4">
+                        <h4 class="font-semibold">Unsplash</h4>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">About</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Blog</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Community</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Join the team</a>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="font-semibold">Product</h4>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Developers/API</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Unsplash Dataset</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Unsplash for Education</a>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="font-semibold">Legal</h4>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">License</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Privacy Policy</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Terms</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Security</a>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="font-semibold">Social</h4>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Facebook</a>
+                        <a href="#" class="block text-sm text-gray-400 hover:text-white">Instagram</a>
+                    </div>
+                </div>
+                <div class="mt-8 border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
+                    <p>&copy; 2025 Unsplash Clone.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
